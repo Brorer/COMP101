@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portforlio</title>
+    <style>
+        /*decorator{property: value}*/
+        body{
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        #title{
+            font-size: 2em;
+        }
+        .project-table {
+            width: 80%;
+            border: 2px solid;
+        }
+        .table-container {
+            justify-content: center;
+            width: 100%;
+            display: flex;
+        }
+        td{
+            border: 2px solid;
+        }
+        .project-desription{
+            width: 70%;
+        }
+        .project-image{
+            width: 30%;
+            text-align: center;
+        }
+        iframe{
+            width: auto;
+            height: auto;
+        }
+        .news-tags{
+            background-color: red;
+            width: 10%;
+            top: 10px;
+            left:-1%;
+            transform: rotate(-45deg);
+            position: absolute;
+            animation-name: myAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myAnimation{
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: pink;}
+            75% {background-color: blue;}
+            100% {background-color: violet;}
+        }
+        .news-tags-row{
+            position: relative;
+        }
+        .project-title{
+            color: red;
+            will-change: transform;
+            transition: transform 0.3;
+            display:inline-block;
+            cursor: pointer;
+        }
+        .project-title:hover{
+            font-size: 2em;
+    
+        }
+    </style>
+</head>
+<body bgcolor="grey"">
+    <img src="zkmxyt9c-1407516907.avif" width="50%">
+    <h1 id="title">My projects</h1>
+     <hr>
+     <div class="table-container">
+         <table class="project-table">
+             <tr class="news-tags-row">
+                 <td class="project-description">
+                    <h3 class="project-title">Project title</h3><br>
+                    <div class="news-tags"> News </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum est similique recusandae fugiat libero iste incidunt dignissimos, esse delectus qui assumenda eligendi, rerum doloremque, facere maiores aliquam cupiditate! Eius, itaque.</td>
+                 <td class="project-image"> <img src="https://placehold.co/300x200"></td>
+             </tr>
+             <tr>
+                 <td class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum est similique recusandae fugiat libero iste incidunt dignissimos, esse delectus qui assumenda eligendi, rerum doloremque, facere maiores aliquam cupiditate! Eius, itaque.</td>
+                 <td class="project-image">  <iframe width="560" height="315" src="https://www.youtube.com/embed/4fndeDfaWCg?si=2l42C04qiKRSRLVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+             </tr>
+         </table>
+     </div>
+    <table border="2px">
+        <thead>
+            <th>Project</th>
+            <th>Project</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>COMP101INTRO</td>
+                <td>September 2025</td>
+            </tr>
+            <tr>
+                <td><a download href="project.py">My amazing Python code!</a></td>
+                <td>2026</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>My Skills</h2>
+    <ol>
+        <li>Python expert</li>
+        <li>Linux expert</li>
+    </ol>
+
+    <video src="SSvid.net--Backstreet-Boys-I-Want-It-That-Way-Official-HD_1080.mp4" controls width="40%"></video>
+
+   
+
+
+    <h2>My Favorite Movies</h2>
+    <ul>
+        <li>Whiplash</li>
+        <li>IT</li>
+        <li>Avengers</li>
+    </ul>
+    <p>&#20320</p>
+</body>
+</html>
